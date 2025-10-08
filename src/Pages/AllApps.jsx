@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import useAppHook from "../hooks/useAppHook/useAppHook";
 import { Link } from "react-router";
 import AppCard from "../Components/AppCard/AppCard";
 
 const AllApps = () => {
-  const { apps, loading } = useAppHook();
+    const { apps, loading } = useAppHook();
+    
+    const [search, setSearch] = useState("");
+    const trimSearch = search.trim().toLowerCase();
+    const searchedApps = trimSearch
+      ? apps.filter((app) =>
+          app.title.toLowerCase().includes(trimSearch)
+        )
+      : apps;
+
   return (
     <div>
       <div className="text-center my-10">
@@ -15,16 +24,50 @@ const AllApps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
+      <div className="flex justify-between items-center max-w-11/12 mx-auto mb-10">
+        <h2 className="text-2xl font-semibold text-[#001931] ml-10">
+          Total Apps: {searchedApps.length}
+        </h2>
+        <label className="input">
+          <svg
+            className="h-[1em] opacity-50"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <g
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              strokeWidth="2.5"
+              fill="none"
+              stroke="currentColor"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </g>
+          </svg>
+          <input
+            type="search"
+            defaultValue={search}
+            onChange={(e) => setSearch(e.target.value)}
+            required
+            placeholder="Search"
+          />
+        </label>
+      </div>
       <div className="w-11/12 mx-auto mb-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          {apps.map((app) => (
-            <div key={app.id}>
-              <Link to={`/apps/${app.id}`}>
-                <AppCard app={app} />
-              </Link>
-            </div>
-          ))}
-        </div>
+        {loading ? (
+          <p className="text-center">Loading...</p>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            {searchedApps.map((app) => (
+              <div key={app.id}>
+                <Link to={`/apps/${app.id}`}>
+                  <AppCard app={app} />
+                </Link>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
