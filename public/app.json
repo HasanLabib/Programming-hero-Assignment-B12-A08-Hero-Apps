@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "description": "Connect with friends, family and communities. Share posts, stories, and join groups.",
+    "size": 98,
+    "reviews": 135000000,
+    "ratingAvg": 4.5,
+    "downloads_millions": 5000,
+    "image": "https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 6500000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 4200000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 125000000 }
+    ],
+    "largeDescription": "Facebook is a social networking hub that helps people stay connected across friendships, families, and interest groups. The app blends a customizable news feed, Stories, Groups, and Events so users can follow personal updates, trending content, and community conversations in one place. Built-in posting tools let you share photos, videos, live broadcasts, and long-form posts, while privacy and audience controls let you tailor who sees what. Facebook also supports marketplace listings, fundraising, and local recommendations — making it a versatile app for socializing, discovering local happenings, and coordinating real-world meetups. With continuous updates to content discovery and moderation, the app aims to balance personal connection with safe, discoverable content."
+  },
+  {
+    "id": 2,
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "description": "Short-form videos from creators around the world—discover videos for any interest.",
+    "size": 110,
+    "reviews": 170000000,
+    "ratingAvg": 4.2,
+    "downloads_millions": 3000,
+    "image": "https://play-lh.googleusercontent.com/iFstqoxDElUVv4T3KxkxP3OTcuFvWF5ZQQjT7aIxy4n2uaVigCCykxeG6EZV9FQ10X1itPj1oORm=w240-h480",
+    "verified": "converted",
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 21000000 },
+      { "name": "5 star", "count": 120000000 }
+    ],
+    "largeDescription": "TikTok is a dynamic short-video platform that surfaces creative, bite-sized content tailored to each user’s interests. Its recommendation engine quickly learns viewing preferences, delivering a steady stream of music-backed clips, comedy, tutorials, and trends that are easy to consume and share. Creation tools are extensive — intuitive editing, effects, text overlays, and a vast sound library make producing polished videos accessible to casual users and creators alike. Built-in social features such as duets, stitches, and comments promote collaboration and viral challenges, while creator monetization options and analytics help serious creators scale their audiences. Whether you want to be entertained, learn something new, or build a following, TikTok emphasizes immediacy, discovery, and creative expression."
+  },
+  {
+    "id": 3,
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Send photos and messages that disappear after viewing. Multimedia chats and stories.",
+    "size": 178,
+    "reviews": 40000000,
+    "ratingAvg": 4.1,
+    "downloads_millions": 1500,
+    "image": "https://play-lh.googleusercontent.com/iFstqoxDElUVv4T3KxkxP3OTcuFvWF5ZQQjT7aIxy4n2uaVigCCykxeG6EZV9FQ10X1itPj1oORm=w240-h480",
+    "verified": "converted",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 29000000 }
+    ],
+    "largeDescription": "Snapchat focuses on ephemeral, camera-forward communication built around quick photo and video messages called Snaps, plus narrative Stories that last 24 hours. The app’s AR lenses and filters let users transform selfies and scenes in real time, making playful and immersive content creation effortless. Chat, voice and video calls, and group Stories support casual conversation, while Spotlight highlights short-form viral clips from the community. Snapchat also includes Discover channels from publishers and creators, privacy-preserving features, and Memories for saving favorites — balancing temporary sharing with the ability to preserve meaningful moments. It’s a fast, visually rich app for staying in touch with close friends and exploring creative AR trends."
+  },
+  {
+    "id": 4,
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Music and podcasts — millions of tracks. Create playlists, discover new music.",
+    "size": 80,
+    "reviews": 88000000,
+    "ratingAvg": 4.6,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/iFstqoxDElUVv4T3KxkxP3OTcuFvWF5ZQQjT7aIxy4n2uaVigCCykxeG6EZV9FQ10X1itPj1oORm=w240-h480",
+    "verified": "converted",
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 2300000 },
+      { "name": "4 star", "count": 15500000 },
+      { "name": "5 star", "count": 73000000 }
+    ],
+    "largeDescription": "Spotify is a comprehensive audio streaming service offering millions of songs, podcasts, and personalized playlists. The app blends algorithmic discovery — such as Daily Mixes and Discover Weekly — with human curation, letting you find new artists or dive deep into favorite genres. Offline playback, cross-device sync, and collaborative playlists make it simple to listen at home or on the go, while podcast tools provide subscriptions, episode downloads, and smart recommendations. Spotify also offers features for creators, including analytics and monetization pathways, and a premium tier that removes ads and unlocks higher quality streaming. Its clean interface keeps discovery central, from quick mood-based mixes to long-form podcast series."
+  },
+  {
+    "id": 5,
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Secure email by Google — fast search, smart replies, inbox organization.",
+    "size": 32,
+    "reviews": 42000000,
+    "ratingAvg": 4.3,
+    "downloads_millions": 5000,
+    "image": "https://play-lh.googleusercontent.com/VoDMQrDq_bh5Pluo8y8sWGq872fD-CtH4IILHnCtodWOfdstI5PdhlJOEugEUIbbAIo=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 6500000 },
+      { "name": "5 star", "count": 35000000 }
+    ],
+    "largeDescription": "Gmail is a feature-rich email client built around Google’s powerful search and spam-filtering technology. It organizes messages with intelligent tabs, priority markers, and labels to keep your inbox manageable, while smart replies and compose suggestions speed up common responses. Tight integration with Google Workspace services — Calendar, Drive, Docs — makes attachments, scheduling, and collaboration seamless. Security features include phishing detection, two-step verification, and confidential mode to protect sensitive mail. For power users the app supports multiple accounts, offline access, and customizable notifications so email fits both personal and professional workflows."
+  },
+  {
+    "id": 6,
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "description": "Chat, meet, call, and collaborate in Microsoft Teams — workplace communication hub.",
+    "size": 230,
+    "reviews": 14000000,
+    "ratingAvg": 4.2,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/9kABykeGovHPy-dN19lRxxnCp8IZK3Pkl8qLFNxrEe-hhKVZeiyhTBEIRUt6t-vhxQ=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 10500000 }
+    ],
+    "largeDescription": "Microsoft Teams unifies chat, meetings, file collaboration, and apps into a single workplace hub. Persistent channels and threaded conversations keep teams coordinated, while video conferencing supports scheduling, screen sharing, and breakout rooms for larger meetings. Deep integration with Office apps (Word, Excel, PowerPoint) allows real-time co-authoring and file storage in OneDrive, reducing context switching. Security and compliance features such as data loss prevention and conditional access make it suitable for enterprises, and app integrations extend workflows through bots and connectors. Teams is purpose-built to centralize day-to-day collaboration and make remote teamwork feel more structured and productive."
+  },
+  {
+    "id": 7,
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "description": "Match-3 puzzle game with thousands of levels and events.",
+    "size": 145,
+    "reviews": 33000000,
+    "ratingAvg": 4.4,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/12USW7aflgz466ifDehKTnMoAep_VHxDmKJ6jEBoDZWCSefOC-ThRX14Mqe0r8KF9XCzrpMqJts=w240-h480",
+    "verified": "converted",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 6400000 },
+      { "name": "5 star", "count": 25000000 }
+    ],
+    "largeDescription": "Candy Crush Saga is a colorful match-3 puzzle game that blends easy-to-learn mechanics with layered level design and frequent events. Players combine candies to clear boards, trigger combos, and meet level objectives while leveraging boosters and special pieces earned or purchased. The progression system includes thousands of levels and timed challenges that encourage replay and skill improvements, and social features let you compete with friends on leaderboards or request help. With bright visuals and addictive, short-session gameplay, Candy Crush is ideal for casual play during short breaks, yet it retains strategic depth for players chasing high scores or completing tricky stages."
+  },
+  {
+    "id": 8,
+    "title": "PUBG MOBILE",
+    "companyName": "KRAFTON, Inc.",
+    "description": "Battle royale shooter with intense 100-player battles and ranked seasons.",
+    "size": 1200,
+    "reviews": 40000000,
+    "ratingAvg": 4.1,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/VoDMQrDq_bh5Pluo8y8sWGq872fD-CtH4IILHnCtodWOfdstI5PdhlJOEugEUIbbAIo=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 26500000 }
+    ],
+    "largeDescription": "PUBG MOBILE is a large-scale battle royale experience where up to 100 players compete on expansive maps to be the last one standing. The app offers multiple modes — classic ranked matches, arcade modes, and limited-time events — along with a deep weapon and gear system that rewards tactical play. Realistic ballistics, vehicle combat, and team coordination make matches intense and strategic, while seasonal ranked ladders and cosmetics offer long-term progression. Social features enable squad play, voice chat, and replay highlights, and performance optimizations help deliver smooth play across many device classes. For players seeking competitive multiplayer action with frequent updates, PUBG Mobile provides high-stakes gameplay and community-driven events."
+  },
+  {
+    "id": 9,
+    "title": "Amazon",
+    "companyName": "Amazon Mobile LLC",
+    "description": "Shop millions of products, read reviews, and track orders from Amazon.",
+    "size": 98,
+    "reviews": 8000000,
+    "ratingAvg": 4.4,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/1Ns1T_qN0pEXMvZeZ5lQNAR8z4blP7ce2J2Nn5doXvt2T1g_W7VMORdWHaApkOooupI=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 220000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 6500000 }
+    ],
+    "largeDescription": "The Amazon app brings the e-commerce giant’s catalog, personalized recommendations, and order tracking into a single shopping experience. Powerful search, curated deals, and customer reviews help you discover products and make informed choices, while Prime integration provides fast shipping and exclusive offers. The app supports lightning deals, wish lists, barcode scanning, and easy reorders — streamlining both discovery and repeat purchases. Seller messaging, secure checkout, and purchase protection add confidence when buying, and features like Subscribe & Save simplify recurring orders. The Amazon app is designed to be a one-stop shop for browsing, buying, and managing orders anywhere."
+  },
+  {
+    "id": 10,
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Navigation, real-time traffic, transit info, and local business search.",
+    "size": 50,
+    "reviews": 85000000,
+    "ratingAvg": 4.3,
+    "downloads_millions": 5000,
+    "image": "https://play-lh.googleusercontent.com/Kf8WTct65hFJxBUDm5E-EpYsiDoLQiGGbnuyP6HBNax43YShXti9THPon1YKB6zPYpA=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 3200000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 14000000 },
+      { "name": "5 star", "count": 70000000 }
+    ],
+    "largeDescription": "Google Maps is a navigation and local discovery platform that combines turn-by-turn directions, live traffic data, and rich business listings. It supports driving, walking, cycling, and public transit routes, with estimated arrival times that update dynamically based on congestion. Place pages include hours, photos, reviews, and contact details, making it easy to find and evaluate nearby businesses. Features like offline maps, location sharing, street view, and saved places enhance trip planning and on-the-ground navigation. Maps is built to be both an efficient navigation tool and a discovery engine for exploring neighborhoods and local services."
+  },
+  {
+    "id": 11,
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "description": "Book rides, get food delivery, and track drivers from the Uber app.",
+    "size": 66,
+    "reviews": 9500000,
+    "ratingAvg": 4.2,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/AQtSF5Sl18yp3mQ2tcbOrBLekb7cyP3kyg5BB1uUuc55zfcnbkCDLHFTBwZfYiu1aDI=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 7000000 }
+    ],
+    "largeDescription": "Uber connects riders with nearby drivers for on-demand transportation and also integrates food delivery through Uber Eats. The app’s streamlined booking flow shows estimated fares, arrival times, and driver details, and offers ride-sharing, premium options, and scheduled trips to fit different needs. Safety features include trip sharing, driver background checks in many markets, and in-app emergency assistance. For drivers the platform provides earnings tracking and flexible scheduling, while riders benefit from transparent pricing, promotions, and an order history. Uber aims to be an all-in-one mobility tool for short trips, commuting, and local delivery."
+  },
+  {
+    "id": 12,
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "description": "Discover and save ideas — recipes, home inspiration, fashion and more.",
+    "size": 45,
+    "reviews": 4000000,
+    "ratingAvg": 4.5,
+    "downloads_millions": 500,
+    "image": "https://play-lh.googleusercontent.com/6CFQQ0b9r5fzF1v6f0gIirWsOGL7sGWkJifuUQxxhbCMcBx5aSG_cNXpjDKDn5c1jwjq=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 410000 },
+      { "name": "5 star", "count": 3600000 }
+    ],
+    "largeDescription": "Pinterest is a visual discovery platform where users collect and organize ideas for projects, recipes, home decor, fashion, and more. Content is arranged into boards and pins, making it easy to save inspiration and return to curated collections when planning an event or a renovation. Visual search and guided recommendations help you find similar looks, product sources, and step-by-step instructions. For creators and businesses, the app offers promoted pins and analytics to reach users actively seeking ideas. Pinterest focuses on discovery and planning, making it a practical tool for turning inspiration into action."
+  },
+  {
+    "id": 13,
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "description": "Professional networking — jobs, company news, and professional profiles.",
+    "size": 120,
+    "reviews": 12000000,
+    "ratingAvg": 4.1,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 8800000 }
+    ],
+    "largeDescription": "LinkedIn is a professional networking platform centered on career development, hiring, and industry content. Users build profiles that showcase experience, skills, and endorsements, and job seekers can apply directly through postings while recruiters source candidates. The feed features professional updates, long-form articles, and thought leadership that help users stay informed about industry trends. LinkedIn Learning provides on-demand courses to upskill, and enterprise tools support talent solutions and company pages. The platform is structured to help professionals grow networks, find opportunities, and establish their professional brand."
+  },
+  {
+    "id": 14,
+    "title": "Chrome",
+    "companyName": "Google LLC",
+    "description": "Fast, secure web browser from Google with sync across devices.",
+    "size": 95,
+    "reviews": 21000000,
+    "ratingAvg": 4.4,
+    "downloads_millions": 5000,
+    "image": "https://play-lh.googleusercontent.com/QRRGW2tMZ4-FNw0XWk6WWiXHaQCGxuwM-92HrBhlA4WOd_AGmjVmQkiHyAqQjW2yByc=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 17000000 }
+    ],
+    "largeDescription": "Chrome is a fast, standards-compliant browser built for speed and cross-device continuity through Google account sync. It offers tab management, an omnibox that combines search and URL entry, and robust developer tools for advanced users. Security features — sandboxing, safe browsing, and regular updates — protect users against malicious sites, and extensions in the Chrome Web Store let users extend functionality for productivity, security, and customization. Chrome prioritizes performance and simplicity while providing advanced tools for power users and tight integration with Google services for seamless browsing across devices."
+  },
+  {
+    "id": 15,
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "Watch and upload videos, subscribe to channels, and stream live.",
+    "size": 54,
+    "reviews": 350000000,
+    "ratingAvg": 4.5,
+    "downloads_millions": 5000,
+    "image": "https://play-lh.googleusercontent.com/6am0i3walYwNLc08QOOhRJttQENNGkhlKajXSERf3JnPVRQczIyxw2w3DxeMRTOSdsY=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 13000000 },
+      { "name": "4 star", "count": 55000000 },
+      { "name": "5 star", "count": 270000000 }
+    ],
+    "largeDescription": "YouTube is a global video platform for consuming and publishing video content across every imaginable topic. Creators can upload long-form videos, short clips, and livestreams while viewers discover content through subscriptions, recommendations, and trending feeds. Tools for creators include analytics, monetization, community posts, and content management to help build audiences and sustain channels. YouTube Premium adds ad-free viewing and background play, and the app supports captions, chapters, and playlists to make content consumption flexible. The platform blends entertainment, education, and community, serving casual viewers and professional creators alike."
+  },
+  {
+    "id": 16,
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "description": "Stream TV shows and movies — personalized recommendations and offline downloads.",
+    "size": 70,
+    "reviews": 22000000,
+    "ratingAvg": 4.2,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/TBRwjS_qfJCSj1m7zZB93FnpJM5fSpMA_wUlFDLxWAb45T9RmwBvQd5cWR5viJJOhkI=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 17000000 }
+    ],
+    "largeDescription": "Netflix is a subscription-based streaming service offering a large library of TV series, movies, and exclusive originals. The app emphasizes personalized recommendations, curated lists, and easy offline downloads for viewing without connectivity. Features such as profiles, parental controls, and multi-device streaming let households tailor viewing to different tastes, while high-quality video playback and adaptive streaming optimize performance across networks. Content discovery is driven by both editorial curation and algorithmic suggestions, helping users find new shows and revisit classics. Netflix focuses on binge-ready UX and continuous content updates to keep viewers engaged."
+  },
+  {
+    "id": 17,
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "description": "Cloud-based instant messaging with robust privacy and group features.",
+    "size": 63,
+    "reviews": 16000000,
+    "ratingAvg": 4.5,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/ZU9cSsyIJZo6Oy7HTHiEPwZg0m2Crep-d5ZrfajqtsH-qgUXSqKpNA2FpPDTn-7qA5Q=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 2400000 },
+      { "name": "5 star", "count": 12600000 }
+    ],
+    "largeDescription": "Telegram is a fast, cloud-based messaging app that emphasizes large-group capabilities, file sharing, and privacy-focused features. It supports encrypted chats, channels for broadcasting, and bots for automation, making it flexible for both personal and community use. Large file transfers, cross-device sync, and robust media handling make Telegram well-suited for teams and creators who need to move large assets quickly. Optional secret chats add end-to-end encryption for sensitive conversations, and extensive APIs let developers build integrations and custom tools. Telegram balances speed, scale, and extensibility for diverse messaging needs."
+  },
+  {
+    "id": 18,
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp LLC",
+    "description": "Private messaging and calling with end-to-end encryption.",
+    "size": 75,
+    "reviews": 208000000,
+    "ratingAvg": 4.4,
+    "downloads_millions": 5000,
+    "image": "https://play-lh.googleusercontent.com/bYtqbOcTYOlgc6gqZ2rwb8lptHuwlNE75zYJu6Bn076-hTmvd96HH-6v7S0YUAAJXoJN=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 8500000 },
+      { "name": "2 star", "count": 3200000 },
+      { "name": "3 star", "count": 6500000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 162000000 }
+    ],
+    "largeDescription": "WhatsApp is a simple, widely used messaging and voice/video calling app with end-to-end encryption enabled by default for private conversations. It supports individual and group chats, media sharing, status updates, and location sharing, with a design that emphasizes reliability and low-bandwidth performance. WhatsApp Web extends conversations to desktop, while business profiles and catalog features help small companies interact with customers. Backup options, two-step verification, and message-forwarding controls add layers of safety and account protection. Its ubiquity and ease of use make WhatsApp a primary communication tool for personal and community use around the world."
+  },
+  {
+    "id": 19,
+    "title": "Instagram",
+    "companyName": "Instagram, Inc. (Meta)",
+    "description": "Share photos and videos, follow creators, and explore trends.",
+    "size": 80,
+    "reviews": 165000000,
+    "ratingAvg": 3.9,
+    "downloads_millions": 5000,
+    "image": "https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 14000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 35000000 },
+      { "name": "5 star", "count": 108000000 }
+    ],
+    "largeDescription": "Instagram is a visual-first social platform centered on photo and video sharing, Stories, Reels, and creator discovery. Its design prioritizes polished visual content, with creative tools for editing, filters, and short-form video creation that help users and influencers craft compelling posts. The app supports direct messaging, shopping integrations, and a feed influenced by both followed accounts and personalized recommendations. Creator monetization, analytics, and branded content tools empower influencers and businesses, while features like Reels encourage viral short-form expression. Instagram blends personal storytelling with discovery and commerce for visual-minded communities."
+  },
+  {
+    "id": 20,
+    "title": "Microsoft Word",
+    "companyName": "Microsoft Corporation",
+    "description": "Create, edit and share documents; mobile-friendly editing and collaboration.",
+    "size": 160,
+    "reviews": 14000000,
+    "ratingAvg": 4.8,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/9kABykeGovHPy-dN19lRxxnCp8IZK3Pkl8qLFNxrEe-hhKVZeiyhTBEIRUt6t-vhxQ=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 12600000 }
+    ],
+    "largeDescription": "Microsoft Word on mobile brings the core document creation and editing capabilities of Word to phones and tablets, with rich formatting, templates, and collaboration features. Users can edit documents in real time with colleagues, track changes, and insert images or tables while files sync through OneDrive. The app includes tools for reviewing and commenting that mirror desktop workflows, and compatibility with Word desktop ensures fidelity when switching devices. Word’s mobile UI balances layout control with touch-friendly editing, making it effective for drafting, reviewing, and presenting documents while on the move."
+  },
+  {
+    "id": 21,
+    "title": "Adobe Acrobat Reader",
+    "companyName": "Adobe Inc.",
+    "description": "View, sign, and annotate PDFs. Convert and export PDFs with subscription features.",
+    "size": 90,
+    "reviews": 559000,
+    "ratingAvg": 4.7,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/vk4iyksIXxGSUYPlVoqS6vcq2b9vWNGtrYBGDC-4i8fbZQHP6szcqOTZMaQj4r-M1uk=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 420000 }
+    ],
+    "largeDescription": "Adobe Acrobat Reader is a full-featured PDF viewer and annotator that also enables e-signatures and form fills. Users can highlight, comment, and add notes to PDFs, and cloud integration with Adobe Document Cloud and other services makes document access seamless across devices. Advanced features include PDF conversion, export to other formats, and password protection for sensitive files, available through subscription tiers. Acrobat Reader is designed for reliable PDF rendering and collaborative review, making it a must-have for users who frequently read, sign, or annotate documents on mobile."
+  },
+  {
+    "id": 22,
+    "title": "Duolingo",
+    "companyName": "Duolingo, Inc.",
+    "description": "Language learning with bite-sized lessons and gamified progress.",
+    "size": 65,
+    "reviews": 7000000,
+    "ratingAvg": 4.7,
+    "downloads_millions": 500,
+    "image": "https://play-lh.googleusercontent.com/tw_coGKgk1K_zO-Ypf9zBKV1s-KT3dYN1MIUxIqtnbfmON5x_YmuoAr31gE4oSfJHNtA-aStTd-qe9R8S6NVyA=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 6450000 }
+    ],
+    "largeDescription": "Duolingo is a gamified language-learning app that delivers bite-sized lessons, spaced repetition, and a playful reward system to keep learners motivated. Lessons mix reading, listening, speaking, and translation practice with immediate feedback and streak tracking to reinforce daily practice. The app supports dozens of languages, with skill trees, timed challenges, and stories that increase in complexity as learners progress. Duolingo Plus removes ads and adds offline access, while progress tracking and skill strength indicators help learners identify weak areas and stay on course. The approachable UX and short daily sessions make language study accessible and habit-forming."
+  },
+  {
+    "id": 23,
+    "title": "Dropbox",
+    "companyName": "Dropbox, Inc.",
+    "description": "Cloud storage, file sync, and collaboration tools for individuals and teams.",
+    "size": 120,
+    "reviews": 3000000,
+    "ratingAvg": 4.4,
+    "downloads_millions": 500,
+    "image": "https://play-lh.googleusercontent.com/VoDMQrDq_bh5Pluo8y8sWGq872fD-CtH4IILHnCtodWOfdstI5PdhlJOEugEUIbbAIo=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 2350000 }
+    ],
+    "largeDescription": "Dropbox provides cloud storage and file synchronization that keeps files accessible across devices and collaborators. The app supports automatic photo uploads, selective sync, and shared folders for team collaboration, plus document previews and in-app commenting for quick feedback. Integrations with productivity tools and third-party apps enable streamlined workflows, while business plans add admin controls and additional security features. Dropbox focuses on simple, reliable file access and lightweight collaboration so teams can share and iterate on files without sending large attachments back and forth."
+  },
+  {
+    "id": 24,
+    "title": "Airbnb",
+    "companyName": "Airbnb, Inc.",
+    "description": "Book unique places to stay — homes, apartments, and experiences worldwide.",
+    "size": 64,
+    "reviews": 1500000,
+    "ratingAvg": 4.6,
+    "downloads_millions": 500,
+    "image": "https://play-lh.googleusercontent.com/5ZOQbuxacVOWK6AM4Env-adyEWRUCJt0VrUl9bWKW4Z4qLSjJUBuMP8-dALMy9oWu530=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 1200000 }
+    ],
+    "largeDescription": "Airbnb connects travelers with unique short-term stays and local experiences hosted by people around the world. Search filters let users find homes, entire apartments, or boutique stays by location, price, amenities, and host ratings, while detailed listings include photos, reviews, and house rules. In-app booking, messaging, and flexible cancellation options simplify trip planning, and host tools help manage reservations and pricing. Airbnb Places and Experiences expand travel beyond lodging, offering curated activities that help guests explore local culture and hidden gems. The app emphasizes trust with review systems, verified IDs, and secure payments."
+  },
+  {
+    "id": 25,
+    "title": "eBay",
+    "companyName": "eBay Inc.",
+    "description": "Buy and sell items: auctions, classifieds, and immediate purchases.",
+    "size": 80,
+    "reviews": 1300000,
+    "ratingAvg": 4.1,
+    "downloads_millions": 500,
+    "image": "https://play-lh.googleusercontent.com/31-mJUIynIfQBizOn-w1yWLKHBxVeRKA3gz348_E3K-TnuEaqCjn_-Fr9j0yQ6i0y5E=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 1100000 }
+    ],
+    "largeDescription": "eBay is an online marketplace that supports auctions, buy-it-now listings, and local classifieds across an enormous range of categories. Sellers can list new and used items with photos and condition notes, while buyers can bid, purchase instantly, and track shipments directly in the app. Buyer protections, seller ratings, and dispute resolution help maintain trust, and saved searches and watchlists assist with price tracking. eBay’s model supports niche collectors and everyday shoppers alike, enabling discovery of rare items, competitive pricing, and global commerce from a mobile device."
+  },
+  {
+    "id": 26,
+    "title": "Slack",
+    "companyName": "Slack Technologies (Salesforce)",
+    "description": "Team communication and collaboration with channels, threads and integrations.",
+    "size": 140,
+    "reviews": 700000,
+    "ratingAvg": 4.2,
+    "downloads_millions": 100,
+    "image": "https://play-lh.googleusercontent.com/iFstqoxDElUVv4T3KxkxP3OTcuFvWF5ZQQjT7aIxy4n2uaVigCCykxeG6EZV9FQ10X1itPj1oORm=w240-h480",
+    "verified": "converted",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 495000 }
+    ],
+    "largeDescription": "Slack is a focused collaboration platform built around organized channels, direct messages, and rich integrations that bring tools and notifications into a single workspace. Channels help structure team conversations around projects or topics, and threaded replies keep context intact during busy discussions. Robust search, file sharing, and app integrations (including calendar, CI tools, and ticketing systems) allow teams to centralize workflow without constantly switching apps. Slack’s notification controls, Do Not Disturb schedules, and workspace admin settings help balance responsiveness with focus, making it a staple for many modern engineering and product teams."
+  },
+  {
+    "id": 27,
+    "title": "Gboard",
+    "companyName": "Google LLC",
+    "description": "Google keyboard: glide typing, voice typing, GIFs, and multilingual typing.",
+    "size": 25,
+    "reviews": 39000000,
+    "ratingAvg": 4.4,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/VRMWkE5p3CkWhJs6nv-9ZsLAs1QOg5ob1_3qg-rckwYW7yp1fMrYZqnEFpk0IoVP4LM=w240-h480",
+    "verified": true,
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 29500000 }
+    ],
+    "largeDescription": "Gboard is Google’s keyboard offering fast glide typing, accurate suggestions, voice input, and integrated search. It supports multilingual typing, emoji and GIF search, clipboard tools, and quick access to Google search and Translate directly from the keyboard. The layout and predictive text adapt to usage patterns to speed up typing across apps, while privacy settings let users control data collection for suggestions. Lightweight and feature-rich, Gboard aims to make typing faster and more expressive without leaving the current app."
+  },
+  {
+    "id": 28,
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "Video and audio conferencing, chat and webinars for teams and individuals.",
+    "size": 95,
+    "reviews": 9000000,
+    "ratingAvg": 4.3,
+    "downloads_millions": 1000,
+    "image": "https://play-lh.googleusercontent.com/iFstqoxDElUVv4T3KxkxP3OTcuFvWF5ZQQjT7aIxy4n2uaVigCCykxeG6EZV9FQ10X1itPj1oORm=w240-h480",
+    "verified": "converted",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 7400000 }
+    ],
+    "largeDescription": "Zoom is a video-first communications platform that supports meetings, webinars, and persistent team chat with screen sharing and recording. The app is designed for reliability and ease of joining meetings with minimal friction, offering scheduled or instant video rooms with controls for hosts and participants. Features like virtual backgrounds, breakout rooms, polling, and transcription help replicate interactive in-person sessions and support larger events. Zoom’s cross-platform capabilities ensure meetings can include participants on desktop, mobile, and room systems, making it a versatile tool for remote collaboration and virtual events."
+  }
+]
