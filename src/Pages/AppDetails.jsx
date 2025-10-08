@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router';
 import useAppHook from '../hooks/useAppHook/useAppHook';
 import AppStatisticChart from '../Components/AppStatisticChart/AppStatisticChart';
+import AppError from '../Error/AppErrorPage/AppError';
 
 const AppDetails = () => {
     const { id } = useParams();
@@ -10,7 +11,7 @@ const AppDetails = () => {
 
     if (loading) return <p>Loading.......</p>;
     if (error) return <p>Error loading app details.</p>;
-    if (!app) return <p>App not found.</p>;
+    if (!app) return <AppError />;
 
      const { title } = app || {};
     return (
