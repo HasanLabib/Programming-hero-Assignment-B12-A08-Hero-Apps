@@ -3,8 +3,30 @@ import { Link } from "react-router";
 import { FaGithub } from "react-icons/fa";
 
 const List = ["Home", "Apps", "Installation"];
-const ListLink = ["/", "/apps", "/installation"];
+const ListLink = ["/", "/apps", "/installed"];
 const NavBar = () => {
+  const ref = React.useRef();
+  const ref1 = React.useRef();
+  const ref2 = React.useRef();
+  const refs = [ref, ref1, ref2];
+  const handleToggle = (index) => {
+    refs.forEach((ref) => {
+      ref.current.classList.remove("bg-blue-500");
+      ref.current.classList.remove("text-white");
+    });
+    refs[index].current.classList.add("bg-blue-500");
+    console.log(refs[index].current);
+    refs[index].current.classList.add("text-white");
+  };
+  const handleToggleHome = () => {
+    refs.forEach((ref) => {
+      ref.current.classList.remove("bg-blue-500");
+      ref.current.classList.remove("text-white");
+    });
+      refs[0].current.classList.add("bg-blue-500");
+      refs[0].current.classList.add("text-white");
+  };
+
   return (
     <div>
       <div className="bg-base-100 shadow-sm">
@@ -36,7 +58,12 @@ const NavBar = () => {
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
               >
                 {List.map((item, index) => (
-                  <li key={index}>
+                  <li
+                    key={index}
+                    onClick={() => handleToggle(index)}
+                    ref={refs[index]}
+                    className={`${index}`}
+                  >
                     <Link to={`${ListLink[index]}`}>{item}</Link>
                   </li>
                 ))}
@@ -52,6 +79,7 @@ const NavBar = () => {
               </figure>
               <Link
                 to={`/`}
+                onClick={handleToggleHome}
                 className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent border-none xl font-bold"
               >
                 HERO.IO
@@ -62,7 +90,12 @@ const NavBar = () => {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               {List.map((item, index) => (
-                <li key={index}>
+                <li
+                  key={index}
+                  onClick={() => handleToggle(index)}
+                  ref={refs[index]}
+                  className={`${index}`}
+                >
                   <Link to={`${ListLink[index]}`}>{item}</Link>
                 </li>
               ))}
