@@ -7,6 +7,7 @@ const useAppHook = () => {
     useEffect(() => {
         const fetchApps = async () => {
             try {
+                setLoading(true);
                 const response = await axios.get("../app.json");
                 console.log(response.data);
                 setApps(response.data);
@@ -14,7 +15,9 @@ const useAppHook = () => {
                 console.error("Error fetching apps:", error);
                 setError(error);
             } finally {
-                setLoading(false);
+                setTimeout(() => {
+                    setLoading(false);
+                }, 1000);
             }
         };
         fetchApps();

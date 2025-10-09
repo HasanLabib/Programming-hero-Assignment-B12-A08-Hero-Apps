@@ -8,6 +8,7 @@ import setInstalledApps, {
   removeInstalledApp,
 } from "../utility/addToLocalStorage";
 import { ToastContainer } from "react-toastify";
+import LoadingSpiner from "../Components/LoadingSpinner/LoadingSpiner";
 
 /*
 {
@@ -61,7 +62,7 @@ const AppDetails = () => {
     setInstalled(isInstalled);
   }, [installedApps, id]);
 
-  if (loading) return <p>Loading.......</p>;
+  if (loading) return <LoadingSpiner />;
   if (error) return <p>Error loading app details.</p>;
   if (!app) return <AppError />;
 
@@ -105,37 +106,41 @@ const AppDetails = () => {
   return (
     <div className="w-11/12 mx-auto my-10">
       <ToastContainer />
-      <div className="flex flex-col md:flex-row gap-8">
+      <div className="flex flex-col md:flex-row gap-8 justify-center md:justify-start">
         <figure>
           <img src={image} alt={title} className="w-80 h-80 object-contain" />
         </figure>
         <div>
-          <h1 className="text-4xl font-bold">{title}</h1>
-          <p className="text-lg">{description}</p>
-          <div className="mt-4 text-xl">
+          <h1 className="text-2xl md:text-4xl font-bold">{title}</h1>
+          <p className="text-[14px] md:text-lg">{description}</p>
+          <div className="mt-4 text-xs md:text-xl">
             <span className="font-semibold text-[#627382]">Developed by </span>{" "}
             <span className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-semibold">
               {companyName}
             </span>
           </div>
           <hr className="my-4 border-t border-gray-300" />
-          <div className="flex flex-row items-start md:items-center mt-4">
+          <div className="flex flex-row items-start text-xs md:text-lg items-center mt-4">
             <div className="mt-2 flex-[2%]">
               <img src="../icon-downloads.png" alt="Downloads" />
               <p className="font-semibold text-[#001931]">Downloads</p>{" "}
-              <p className="font-extrabold text-[2.5rem]">
-                {downloads_millions / 1000} B
+              <p className="font-extrabold text-[1.8rem] md:text-[2.5rem]">
+                {downloads_millions / 1000 >= 1
+                  ? `${downloads_millions / 1000} B`
+                  : `${downloads_millions / 100} M`}
               </p>
             </div>
             <div className="mt-2 flex-[2%]">
               <img src="../icon-ratings.png" alt="Rating" />
               <p className="font-semibold text-[#001931]">Rating</p>{" "}
-              <p className="font-extrabold text-[2.5rem]">{ratingAvg}</p>
+              <p className="font-extrabold text-[1.8rem] md:text-[2.5rem]">
+                {ratingAvg}
+              </p>
             </div>
             <div className="mt-2 flex-1">
               <img src="../icon-review.png" alt="Reviews" />
               <p className="font-semibold text-[#001931]">Reviews</p>{" "}
-              <p className="font-extrabold text-[2.5rem]">
+              <p className="font-extrabold text-[1.8rem] md:text-[2.5rem]">
                 {reviews / 1000000} M
               </p>
             </div>

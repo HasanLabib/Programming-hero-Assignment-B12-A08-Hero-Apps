@@ -8,7 +8,7 @@ const Banner = () => {
           <div className="hero">
             <div className="hero-content text-center">
               <div className="">
-                <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold max-w-[90%] md:max-w-[60%] lg:max-w-[50%] mx-auto">
+                <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold max-w-[80%] md:max-w-[60%] lg:max-w-[50%] mx-auto">
                   We Build{" "}
                   <span className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
                     Productive
@@ -21,11 +21,11 @@ const Banner = () => {
                   your ideas into digital experiences that truly make an impact.
                 </p>
                 <div>
-                  <div className="flex flex-row gap-4 justify-center mt-6 mx-auto">
+                  <div className="flex flex-row gap-2 md:gap-4 justify-center mt-6 mx-auto">
                     <Link
                       to={`https://play.google.com/store/apps`}
                       target="_blank"
-                      className="btn border-gray-200 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2]  hover:text-white border-2 h-fit py-3 px-8"
+                      className="btn border-gray-200 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2]  hover:text-white border-2 h-fit py-3 px-4 md:px-8"
                     >
                       <div className="flex items-center gap-2">
                         <figure>
@@ -44,7 +44,7 @@ const Banner = () => {
                     <Link
                       to={`https://apps.apple.com/`}
                       target="_blank"
-                      className="btn h-fit py-3 px-8 border-gray-200 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:text-white border-2"
+                      className="btn h-fit py-3 px-4 md:px-8 border-gray-200 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:text-white border-2"
                     >
                       <div className="flex items-center gap-2">
                         <figure>

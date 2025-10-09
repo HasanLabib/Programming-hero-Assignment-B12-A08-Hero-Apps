@@ -1,23 +1,51 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useAppHook from "../hooks/useAppHook/useAppHook";
 import { Link } from "react-router";
 import AppCard from "../Components/AppCard/AppCard";
 import AppError from "../Error/AppErrorPage/AppError";
 import AppErrTemplate from "../Error/AppErrorPage/AppErrTemplate";
+import LoadingSpiner from "../Components/LoadingSpinner/LoadingSpiner";
 
 const AllApps = () => {
   const { apps, loading } = useAppHook();
 
   const [search, setSearch] = useState("");
   const trimSearch = search.trim().toLowerCase();
-  const searchedApps = trimSearch
-    ? apps.filter((app) => app.title.toLowerCase().includes(trimSearch))
-    : apps;
+  const [searchedApps, setSearchedApps] = useState(apps);
+  const [isSearching,setIsSearching]=useState(false);
+
+
+  useEffect(() => {
+    const searchAppFunc = () => {
+      try {
+        if (!trimSearch) {
+          setSearchedApps(apps);
+          return;
+        } else {
+          setIsSearching(true)
+          const filteredApps =  apps.filter((app) =>
+            app.title.toLowerCase().includes(trimSearch)
+          );
+          setSearchedApps(filteredApps);
+          setTimeout(() => {
+            setIsSearching(false)
+          }, 1000)
+        }
+      } catch (error) {
+        console.log(error);
+      }
+     };
+    searchAppFunc();
+  }, [trimSearch, apps]);
+
+  // const searchedAppsArr = trimSearch
+  //   ? apps.filter((app) => app.title.toLowerCase().includes(trimSearch)) || []
+  //   : apps;
 
   return (
     <div>
       <div className="text-center my-10">
-        <h1 className="text-[#001931] text-5xl font-bold">
+        <h1 className="text-[#001931] text-4xl md:text-5xl font-bold">
           Our All Applications
         </h1>
         <p className="text-[#627382] mt-4">
@@ -25,8 +53,8 @@ const AllApps = () => {
         </p>
       </div>
       <div className="flex justify-between items-center max-w-11/12 mx-auto mb-10">
-        <h2 className="text-2xl font-semibold text-[#001931] ml-10">
-          Total Apps: {searchedApps.length}
+        <h2 className="text-xl md:text-2xl font-semibold text-[#001931] ml-5 md:ml-10">
+          Total Apps Found : {searchedApps.length}
         </h2>
         <label className="input">
           <svg
@@ -55,8 +83,8 @@ const AllApps = () => {
         </label>
       </div>
       <div className="w-11/12 flex flex-col items-center justify-center mx-auto mb-20">
-        {loading ? (
-          <p className="text-center">Loading...</p>
+        {loading || isSearching ? (
+          <LoadingSpiner />
         ) : (
           <>
             {searchedApps.length > 0 ? (

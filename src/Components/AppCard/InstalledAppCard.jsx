@@ -36,18 +36,26 @@ const InstalledAppCard = ({ app, uninstalled, setUninstalled }) => {
   return (
     <>
       <div className="w-11/12 mx-auto my-4">
-        <div className="flex justify-between items-center bg-base-100 p-4 rounded-lg shadow-md mb-4">
+        <div className="flex justify-between items-center bg-base-100 p-2 md:p-4 rounded-lg shadow-md mb-4">
           <Link to={`/apps/${app.id}`}>
             <div className="flex items-center gap-4">
-              <img src={image} alt={title} className="w-16 h-16 rounded-md" />
+              <img
+                src={image}
+                alt={title}
+                className="w-16 h-16 rounded-md"
+              />
               <div>
                 <p>{title}</p>
-                <div className="flex items-center gap-2 mt-1">
-                  <p className="text-sm text-gray-500 flex items-center gap-1">
+                <div className="flex items-center gap-1 md:gap-2 mt-1">
+                  <p className="text-sm text-[#00D390] flex items-center gap-1">
                     <HiOutlineDownload />
-                    <span>{downloads_millions / 1000}B</span>
+                    <span>
+                      {downloads_millions / 1000 >= 1
+                        ? `${downloads_millions / 1000} B`
+                        : `${downloads_millions / 100} M`}
+                    </span>
                   </p>
-                  <p className="text-sm text-gray-500 flex items-center gap-1">
+                  <p className="text-sm text-[#FF8811] flex items-center gap-1">
                     <FaStar /> <span>{ratingAvg}</span>
                   </p>
                   <p className="text-sm text-gray-500">{size} MB</p>

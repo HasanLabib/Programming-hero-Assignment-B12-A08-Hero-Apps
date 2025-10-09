@@ -17,7 +17,7 @@ const StatesSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-screen md:max-w-[calc(100vw-4rem)] lg:max-w-[calc(100vw-10rem)] mx-auto">
           <div className="p-6">
             <p className="font-light">Total Downloads</p>
-            <p className="font-extrabold text-7xl">
+            <p className="font-extrabold text-5xl md:text-7xl">
               {totalDownloads}
               <span>B</span>
             </p>
@@ -25,7 +25,7 @@ const StatesSection = () => {
           </div>
           <div className="p-6">
             <p className="font-light">Total Reviews</p>
-            <p className="font-extrabold text-7xl">
+            <p className="font-extrabold text-5xl md:text-7xl">
               {totalReviews}
               <span>B</span>
             </p>
@@ -33,7 +33,7 @@ const StatesSection = () => {
           </div>
           <div className="p-6">
             <p className="font-light">Active Apps</p>
-            <p className="font-extrabold text-7xl">
+            <p className="font-extrabold text-5xl md:text-7xl">
               {activeApps}
               <span>+</span>
             </p>

@@ -44,7 +44,7 @@ const AppCard = ({ app }) => {
     return (
       <>
         <div className="card bg-base-100 shadow-sm">
-          <div className='p-4 rounded-xl'>
+          <div className="p-4 rounded-xl">
             <figure className="bg-gray-200 p-2.5 rounded">
               <img
                 src={image}
@@ -59,7 +59,9 @@ const AppCard = ({ app }) => {
             <div className="card-actions justify-between mt-4">
               <div className="badge badge-outline text-[#00D390] bg-[#F1F5E8] font-medium">
                 <HiOutlineDownload />
-                {downloads_millions}
+                {downloads_millions / 1000 >= 1
+                  ? `${downloads_millions / 1000} B`
+                  : `${downloads_millions / 100} M`}{" "}
               </div>
               <div className="badge badge-outline text-[#FF8811] bg-[#FFF0E1] font-medium">
                 <FaStar />

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import useAppHook from "../../hooks/useAppHook/useAppHook";
 import AppCard from "../AppCard/AppCard";
 import { Link } from "react-router";
+import LoadingSpiner from "../LoadingSpinner/LoadingSpiner";
 
 const TopAppsSection = () => {
   const { topApps, loading } = useAppHook();
@@ -10,7 +11,7 @@ const TopAppsSection = () => {
   return (
     <>
       {loading ? (
-        <p className="text-center">Loading...</p>
+        <LoadingSpiner />
       ) : (
         <div className="w-11/12 flex flex-col mx-auto my-20 items-center">
           <div className="text-center my-10">
