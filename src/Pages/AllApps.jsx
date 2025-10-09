@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import useAppHook from "../hooks/useAppHook/useAppHook";
 import { Link } from "react-router";
 import AppCard from "../Components/AppCard/AppCard";
+import AppError from "../Error/AppErrorPage/AppError";
+import AppErrTemplate from "../Error/AppErrorPage/AppErrTemplate";
 
 const AllApps = () => {
-    const { apps, loading } = useAppHook();
-    
-    const [search, setSearch] = useState("");
-    const trimSearch = search.trim().toLowerCase();
-    const searchedApps = trimSearch
-      ? apps.filter((app) =>
-          app.title.toLowerCase().includes(trimSearch)
-        )
-      : apps;
+  const { apps, loading } = useAppHook();
+
+  const [search, setSearch] = useState("");
+  const trimSearch = search.trim().toLowerCase();
+  const searchedApps = trimSearch
+    ? apps.filter((app) => app.title.toLowerCase().includes(trimSearch))
+    : apps;
 
   return (
     <div>
@@ -54,19 +54,25 @@ const AllApps = () => {
           />
         </label>
       </div>
-      <div className="w-11/12 mx-auto mb-20">
+      <div className="w-11/12 flex flex-col items-center justify-center mx-auto mb-20">
         {loading ? (
           <p className="text-center">Loading...</p>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {searchedApps.map((app) => (
-              <div key={app.id}>
-                <Link to={`/apps/${app.id}`}>
-                  <AppCard app={app} />
-                </Link>
+          <>
+            {searchedApps.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-center justify-center w-full">
+                {searchedApps.map((app) => (
+                  <div key={app.id}>
+                    <Link to={`/apps/${app.id}`}>
+                      <AppCard app={app} />
+                    </Link>
+                  </div>
+                ))}
               </div>
-            ))}
-          </div>
+            ) : (
+              <AppErrTemplate />
+            )}
+          </>
         )}
       </div>
     </div>

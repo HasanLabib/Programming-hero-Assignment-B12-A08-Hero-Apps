@@ -25,16 +25,15 @@ const AppStatisticChart = () => {
       data?.uv.sort((a, b) => parseInt(b.name[0]) - parseInt(a.name[0])) || [];
     console.log("chartData:", chartData);
   return (
-    <div className="w-11/12 h-96 mx-auto my-20">
+    <div className="w-[90vw] h-96 mx-auto mt-1.5 mb-10">
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           layout="vertical"
-          width={500}
+          width={400}
           height={300}
           data={chartData}
           margin={{
             top: 5,
-            right: 30,
             bottom: 5,
           }}
         >
@@ -43,7 +42,7 @@ const AppStatisticChart = () => {
           <YAxis type="category" dataKey="name" />
           <Tooltip />
           <Legend />
-          <Bar dataKey="count" fill="#8884d8" name={data?.name} />
+          <Bar dataKey="count" fill="#FF8811" name={data?.name} />
         </BarChart>
       </ResponsiveContainer>
     </div>
