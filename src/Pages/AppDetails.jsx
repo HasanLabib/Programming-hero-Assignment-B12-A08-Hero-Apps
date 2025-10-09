@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useAppHook from "../hooks/useAppHook/useAppHook";
 import AppStatisticChart from "../Components/AppStatisticChart/AppStatisticChart";
@@ -48,7 +48,7 @@ import { ToastContainer } from "react-toastify";
 */
 const AppDetails = () => {
   const { id } = useParams();
-  const [installed, setInstalled] = React.useState(false);
+  const [installed, setInstalled] = useState(false);
 
   const { apps, error, loading } = useAppHook();
   const app = apps.find((app) => app.id === Number(id));
@@ -119,7 +119,7 @@ const AppDetails = () => {
             </span>
           </div>
           <hr className="my-4 border-t border-gray-300" />
-          <div className="flex flex-col md:flex-row items-start md:items-center mt-4">
+          <div className="flex flex-row items-start md:items-center mt-4">
             <div className="mt-2 flex-[2%]">
               <img src="../icon-downloads.png" alt="Downloads" />
               <p className="font-semibold text-[#001931]">Downloads</p>{" "}

@@ -2,7 +2,7 @@ import { toast } from "react-toastify";
 
 export const getInstalledApps = () => {
     const installedApps = localStorage.getItem("installedApps");
-    console.log(installedApps);
+    //console.log(installedApps);
   return installedApps ? JSON.parse(installedApps) : [];
 };
 
@@ -21,9 +21,10 @@ const setInstalledApps = (id) => {
 };
 
 export const removeInstalledApp = (id) => {
-    const previousInstalledApps = getInstalledApps();
+    console.log(id);
+  const previousInstalledApps = getInstalledApps();
     const remainingApps = previousInstalledApps.filter(
-      (previousAppId) => previousAppId !== id
+      (previousApp) => parseInt(previousApp.id) !== parseInt(id)
     );
     localStorage.setItem("installedApps", JSON.stringify(remainingApps));
     toast.success("App removed from installed list");

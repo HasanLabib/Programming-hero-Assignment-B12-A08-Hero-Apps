@@ -1,18 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Link } from "react-router";
 import { FaGithub } from "react-icons/fa";
 
 const List = ["Home", "Apps", "Installation"];
 const ListLink = ["/", "/apps", "/installed"];
 const NavBar = () => {
-  const ref = React.useRef();
-  const ref1 = React.useRef();
-  const ref2 = React.useRef();
+  const ref = useRef();
+  const ref1 = useRef();
+  const ref2 = useRef();
   const refs = [ref, ref1, ref2];
+  const refdrop = useRef();
+  const refdrop2 = useRef();
+  const refdrop3 = useRef();
+  const refsdrop = [refdrop, refdrop2, refdrop3];
+
   const handleToggle = (index) => {
     refs.forEach((ref) => {
-      ref.current.classList.remove("bg-blue-500");
-      ref.current.classList.remove("text-white");
+      if (
+        ref.current.classList.contains("bg-blue-500") &&
+        ref.current.classList.contains("text-white")
+      ) {
+        ref.current.classList.remove("bg-blue-500");
+        ref.current.classList.remove("text-white");
+      }
     });
     refs[index].current.classList.add("bg-blue-500");
     console.log(refs[index].current);
@@ -23,10 +33,30 @@ const NavBar = () => {
       ref.current.classList.remove("bg-blue-500");
       ref.current.classList.remove("text-white");
     });
-      refs[0].current.classList.add("bg-blue-500");
-      refs[0].current.classList.add("text-white");
+    refs[0].current.classList.add("bg-blue-500");
+    refs[0].current.classList.add("text-white");
+    refdrop.forEach((ref) => {
+      ref.current.classList.remove("bg-blue-500");
+      ref.current.classList.remove("text-white");
+    });
+    refsdrop[0].current.classList.add("bg-blue-500");
+    refsdrop[0].current.classList.add("text-white");
   };
 
+  const handleToggleDrop = (index) => {
+    refsdrop.forEach((ref) => {
+      if (
+        ref.current.classList.contains("bg-blue-500") &&
+        ref.current.classList.contains("text-white")
+      ) {
+        ref.current.classList.remove("bg-blue-500");
+        ref.current.classList.remove("text-white");
+      }
+    });
+    refsdrop[index].current.classList.add("bg-blue-500");
+    console.log(refsdrop[index].current);
+    refsdrop[index].current.classList.add("text-white");
+  };
   return (
     <div>
       <div className="bg-base-100 shadow-sm">
@@ -60,8 +90,9 @@ const NavBar = () => {
                 {List.map((item, index) => (
                   <li
                     key={index}
-                    onClick={() => handleToggle(index)}
-                    ref={refs[index]}
+                    onClick={() => handleToggleDrop(index)}
+                    onLoad={() => handleToggleDrop(index)}
+                    ref={refsdrop[index]}
                     className={`${index}`}
                   >
                     <Link to={`${ListLink[index]}`}>{item}</Link>
@@ -93,6 +124,7 @@ const NavBar = () => {
                 <li
                   key={index}
                   onClick={() => handleToggle(index)}
+                  onLoad={() => handleToggle(index)}
                   ref={refs[index]}
                   className={`${index}`}
                 >
