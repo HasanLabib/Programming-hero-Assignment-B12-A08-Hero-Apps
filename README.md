@@ -20,12 +20,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## App Name : Hero IO Technologies Ltd
 
-## Description :
-At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.
-
-## Technologies:
-
-React, React-router,sweetalert, react-loading-indicators, toastify,html,tailwind,JS,Vite
 
 
 # Hero Apps 🔥
@@ -40,7 +34,7 @@ https://b12-a08-hero-apps-hasanlabib.netlify.app/
 ---
 
 ## 📄 Description
-This project demonstrates a modern frontend application built with React and Tailwind CSS. Users can browse different applications, view ratings and install-related details, and navigate seamlessly between pages using client-side routing. Toast notifications enhance the user experience by providing instant feedback for interactions.
+At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.Our goal is to turn your ideas into digital experiences that truly make an impact.This project demonstrates a modern frontend application built with React and Tailwind CSS. Users can browse different applications, view ratings and install-related details, and navigate seamlessly between pages using client-side routing. Toast notifications enhance the user experience by providing instant feedback for interactions.
 
 ---
 
@@ -56,6 +50,10 @@ This project demonstrates a modern frontend application built with React and Tai
 - Tailwind CSS
 - HTML5
 - CSS3
+- Sweetalert
+- react-loading-indicators
+- toastify
+- Vite
 
 ---
 
